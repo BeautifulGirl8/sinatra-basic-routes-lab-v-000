@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
 
 
- get '/hello/:name.json' do
+ get '/hello/:name' do
    "Hello #{params[:name]}"
  end
 
