@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
 
 
- get '/hello/:name' do
+ get '/name/' do
    "My name is _"
  end
 
