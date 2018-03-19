@@ -9,7 +9,7 @@ class App < Sinatra::Base
 
 
  get '/hello/:name' do
-   "Hello #{params[:name]}"
+   "Hello, my name is #{params[:name]}"
  end
 
 
